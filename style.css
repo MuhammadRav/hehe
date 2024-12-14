@@ -1,0 +1,36 @@
+body {
+    background-color: #f2c2c2; /* Warna latar belakang */
+    font-family: 'Arial', sans-serif;
+   }
+   
+   .konten {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   }
+   
+   .judul {
+    color: #FF69B4; /* Warna judul */
+    font-size: 36px;
+    font-weight: bold;
+   }
+   
+   .pesan {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+   }
+   
+   .foto {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   }
+   .musik {
+    width: 50%;
+   }
+      
