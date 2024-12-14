@@ -1,9 +1,9 @@
 body {
     background-color: #f2c2c2; /* Warna latar belakang */
     font-family: 'Arial', sans-serif;
-   }
+}
    
-   .konten {
+.konten {
     width: 80%;
     margin: 40px auto;
     text-align: center;
@@ -11,26 +11,42 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-   }
-   
-   .judul {
+}
+
+.judul {
     color: #FF69B4; /* Warna judul */
     font-size: 36px;
     font-weight: bold;
-   }
-   
-   .pesan {
+}
+
+.pesan {
     font-size: 20px;
     color: #666;
     margin-bottom: 20px;
-   }
-   
-   .foto {
+}
+
+/* Tambahkan gaya untuk tombol di atas gambar */
+.tombol-wrapper {
+    margin-bottom: 20px; /* Jarak tombol ke gambar */
+}
+
+.tombol-musik {
+    background-color: #FF69B4; /* Warna tombol */
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tombol-musik:hover {
+    background-color: #ff4081; /* Warna tombol saat hover */
+}
+
+.foto {
     width: 50%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-   }
-   .musik {
-    width: 50%;
-   }
-      
+    margin-top: 10px;
+}
